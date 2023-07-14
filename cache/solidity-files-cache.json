@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\jaide\\Polyproof-mod1-main\\Polyproof-mod1-main\\node_modules\\erc721a\\contracts\\ERC721A.sol": {
+      "lastModificationDate": 1689240879402,
+      "contentHash": "227e9db819fd61602f833edafcda7d4a",
+      "sourceName": "erc721a/contracts/ERC721A.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721A.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC721A",
+        "ERC721A__IERC721Receiver"
+      ]
+    },
+    "C:\\Users\\jaide\\Polyproof-mod1-main\\Polyproof-mod1-main\\node_modules\\erc721a\\contracts\\IERC721A.sol": {
+      "lastModificationDate": 1689240881318,
+      "contentHash": "c31a05698ddc2f109ba8723105d854c6",
+      "sourceName": "erc721a/contracts/IERC721A.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IERC721A"
+      ]
+    },
+    "C:\\Users\\jaide\\Polyproof-mod1-main\\Polyproof-mod1-main\\contracts\\winniepooh.sol": {
+      "lastModificationDate": 1689325157581,
+      "contentHash": "db101c0ac60f3c89291a80df0ff6d15e",
+      "sourceName": "contracts/winniepooh.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "erc721a/contracts/ERC721A.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "winniepooh"
+      ]
+    }
+  }
+}
