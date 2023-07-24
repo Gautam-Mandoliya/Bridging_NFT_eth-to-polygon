@@ -1,29 +1,15 @@
 const hre = require("hardhat");
-const fs = require("fs");
+
 
 async function main() {
-  // Get the contract factory
-  const NFT = await hre.ethers.getContractFactory("winniepooh");
+  const AnimeNFT = await hre.ethers.getContractFactory("AnimeNFT");
+  const animeNFT = await AnimeNFT.deploy();
 
-  // Deploy the contract
-  const nft = await NFT.deploy();
+  await animeNFT.deployed();
 
-  // Wait for the contract to be deployed
-  await nft.deployed();
-
-  // Log the contract address
-  console.log("NFT contract deployed to:", nft.address);
-
-  // export the addresses
-  fs.writeFileSync(
-    "metadata/contractAddress.js",
-    `
-    export const nftAddress = "${nft.address}"
-  `
-  );
+  console.log("AnimeNFT contract deployed to:", animeNFT.address);
 }
 
-// Execute the deployment function
 main()
   .then(() => process.exit(0))
   .catch((error) => {
