@@ -14,10 +14,12 @@ TOOLS USED:
   1. `npm install`
   2. Create an environment file .env, In this file add `PRIVATE_KEY= "your wallet private key"`
   3. Deploy Contract: `npx hardhat run scripts/deploy.js --network goerli`
-  4. An the address will be generate. Paste this address into contarctAddress.js(in metadata folder) and also in batchMint.js(in scripts folder)
-  6. Batch Mint NFTs
-  Run the following command to batch-mint NFTs: npx hardhat run scripts/batchMint.js --network goerli
-  The script will mint the specified number of NFTs and assign them to your address.
+     
+ -->  An address will be generate. Paste this address into `MintNFT.js and transferNFT.js(at "Goerli contract address")`
+ 
+  4. Mint NFTs:` npx hardhat run scripts/MintNFT.js --network goerli`
+  --> The script will mint the specified number of NFTs and assign them to your address.
+     
   7. Approve and Deposit NFTs to Polygon Mumbai
   Run the following commands to approve and deposit the minted NFTs from Ethereum to the Polygon Mumbai network using the FxPortal Bridge:
   npx hardhat run scripts/approveDeposit.js --network goerli
