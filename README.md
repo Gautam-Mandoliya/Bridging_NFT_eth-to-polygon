@@ -27,5 +27,6 @@ TOOLS USED:
      npx hardhat run scripts/balance.js --network goerli
      //For Polygon network
      npx hardhat run scripts/balance.js --network mumbai
+     
      ```
   
