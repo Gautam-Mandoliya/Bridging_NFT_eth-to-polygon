@@ -1,12 +1,13 @@
 # Bridging_NFT_eth-to-polygon
 ## Description
 In this project, an NFT collection is to be deployed on the goerli network, Map the collection to Polygon, and Transfer assets to mumbai network using Polygon Bridge.
-` TOOLS USED:
+```
+TOOLS USED:
   1. Harhdat - For Deployment.
   2. Midjourney - For generating NFT using prompt.
   3. Pinata - For storing NFT on cloud
   4. Zk-bridge - For transfering NFT (Goerli-->Polygon)
-`
+```
 #Executing program
 1. npm install
 2. Compile the contracts using:  npx hardhat compile
