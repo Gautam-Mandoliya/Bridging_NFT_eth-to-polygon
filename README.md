@@ -9,7 +9,7 @@ TOOLS USED:
   4. Zk-bridge - For transfering NFT (Goerli-->Polygon)
 ```
 # Getting Started
-  ## Installation
+  ## Installation 
   
   1. `npm install`
   2. Create an environment file .env, In this file add `PRIVATE_KEY= "your wallet private key"`
@@ -27,6 +27,12 @@ TOOLS USED:
      npx hardhat run scripts/balance.js --network goerli
      //For Polygon network
      npx hardhat run scripts/balance.js --network mumbai
-     
+
      ```
+  7. To get the prompt:` npx hardhat run scripts/transferNFT.js --network goerli`
+
+*This Should do the work*. Now the NFT's are deposited to the contract which is on Polygon.
+# Author
+Gautam Mandoliya
+# License
   
