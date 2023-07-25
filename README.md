@@ -32,7 +32,8 @@ TOOLS USED:
   7. To get the prompt:` npx hardhat run scripts/transferNFT.js --network goerli`
 
 *This Should do the work*. Now the NFT's are deposited to the contract which is on Polygon.
+
 # Author
 Gautam Mandoliya
 # License
-  
+This project is licensed under the MIT License - see the LICENSE.md file for details.
